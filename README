@@ -1,0 +1,12 @@
+STOIAN MIRUNA
+325 CB
+PrefixAST
+
+Informatiile primite le pun in eax , iar pe acesta il pun pe stiva.
+In "citeste" verific daca valoarea mea este o operatie.Daca este ma duc 
+pe una dintre cele 4 functii specifice(adunare,scadere,inmultire,impartire)
+si ii verific fiul stang si apoi fiul drept(aplelez din nou citeste pentru a vedea natura fiului).Daca nu se verifica nicio operatie
+inseamna ca este numar asa ca o sa merg in functia "transform" si convertesc
+stringul la numar. Aici iau in considere si cazul in care numarul ar putea 
+sa fie negativ.
+Pentru a realiza parcurgerea arborelui m-am folosit de recursivitate.
